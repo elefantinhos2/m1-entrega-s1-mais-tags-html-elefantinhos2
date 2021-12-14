@@ -2,36 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Minha Primeira Web</title>
+    <title style="text-align: center;">Minha Primeira Web</title>
   </head>
-  <body>
+  <body style="background-color: cornflowerblue;">
    
-    <header>
-        <h1 class="title">Douglas Leão-Minha Vida!</h1>
+    <header style="text-align: center;">
+        <h1 style="background-color: darkgrey;" class="title">Douglas Leão-Minha Vida!</h1>
    <aside>
     <nav>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#sobreMim">Sobre Mim</a></li>
-        <li><a href="#meusHobbies">Meus Hobbies</a></li>
-        <li><a href="#Ti">Minha Relaçao com TI</a></li>
+      <ul style="list-style: none; display: flex; justify-content: space-around;">
+        <li><a style="color: black;" href="#top">Home</a></li>
+      <li><a style="color: black;" href="#sobreMim">Sobre Mim</a></li>
+        <li><a style="color: black;" href="#meusHobbies">Meus Hobbies</a></li>
+        <li><a style="color: black;" href="#Ti">Minha Relaçao com TI</a></li>
+      </ul>
     </nav>
    </aside>
-    </header>
+    
    
     <div class="wrapper">
       <div class="content" role="main">
        
 
-        <!--img
+        <img style="width: 300px; height: 200px; "
           src="https://cdn.glitch.me/99eb8d20-c0ae-436c-9c3c-900582612d9a%2F20210825_112830.jpg?v=1638545347138"
           class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        /-->
+          alt="Autor da Biografia"
+          title="Sou Eu!"
+        >
+    </header>   
        
         <div class="instructions">
             <article>
-                <h1>Minha Pequena:  &ltAuto-Biografia&gt</h1>
+                <h1 style="text-align: center;">Minha Pequena:  &ltAuto-Biografia&gt</h1>
                 
                 <section>
                     <h3 id="sobreMim">
@@ -70,12 +73,18 @@
                         Eu não devia falar sobre isso, mas minha habilidade secreta esta na cozinha, eu sou um otimo
                         cozinheiro é um dom, eu acho 😎.
                       </p>
+                      <p>Em Resumo</p>
+                      <ol>
+                        <li>Basquete</li>
+                        <li>Video Game</li>
+                        <li>Cozinhar</li>
+                      </ol>
                  </section>
                   <hr>
                   <section>
-                    <h5>
+                    <h5 id="Ti">
                         Minha Relação com TI
-                      </h5 id="Ti">
+                      </h5>
                       <p>
                         Eu sempre gostei bastante de computadores 💻 e jogos digitais, entao quando me formei decidi 
                         cursar algo na área, no começo gostei bastante, principalmente das aulas de exatas e sendo bem 
@@ -95,21 +104,7 @@
          
         </div>
       </div>
-    </div>
-    
-    <!--footer class="footer">
-      <div class="links"></div>
-      <a--
-        class="btn--remix"
-        target="_top"
-        href="https://www.codewars.com/dashboard"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Code Wars
-      </a-->
+    </div>  
       <details>
           <summary>
               CodeWars
